@@ -35,7 +35,7 @@ fun main() {
     println("En yüksek maaş alan işçi:")
     println("Name: ${highestSalaryWorker?.name}")
     println("Salary: ${highestSalaryWorker?.salary}")
-    println("--------------------")
+    println("---------------------")
 
     val totalSalary = workers.sumByDouble { it.salary }
     val averageSalary = totalSalary / workers.size
